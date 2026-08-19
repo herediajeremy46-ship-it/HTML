@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #081c15;
+    color: #e8f5e9;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 30px 20px;
+}
+
+h1 {
+    color: #ffb703;
+    font-size: 38px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+h2 {
+    color: #52b788;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.contenedor {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.caja {
+    width: 280px;
+    min-height: 220px;
+    background-color: #1b4332;
+    border: 2px solid #74c69d;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px rgba(82, 183, 136, 0.25);
+}
+
+.caja p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 10px 0 0 0;
+    color: #d8f3dc;
+}
+
+.img-caja {
+    width: 44px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.seccion-resumen {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    text-align: left;
+    padding: 0 10px;
+}
+
+.seccion-resumen h2 {
+    color: #ffb703;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.seccion-resumen p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #b7e4c7;
+}
+
+.img-final {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 12px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
